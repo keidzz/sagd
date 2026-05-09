@@ -1,0 +1,84 @@
+# In-project GTA directory for testing
+project/gta/*
+!project/gta/.gdignore
+!project/gta/README.md
+
+project/addons/
+
+godot-cpp
+
+# Godot auto generated files
+*.gen.*
+.godot/
+
+etc
+
+# Ignore library files but not the gdextension file
+project/bin/*
+!bin/godot
+bin/godot/*
+!bin/godot/.gitkeep
+!project/bin/android
+project/bin/android/*
+!project/bin/android/.gitkeep
+!project/bin/linux
+project/bin/linux/*
+!project/bin/linux/.gitkeep
+!project/bin/macos
+project/bin/macos/*
+!project/bin/macos/.gitkeep
+!project/bin/windows
+project/bin/windows/*
+!project/bin/windows/.gitkeep
+!project/bin/*.gdextension
+.sconsign*.dblite
+
+bin/windows/*
+
+
+# Ignore custom.py
+custom.py
+
+# Ignore generated compile_commands.json
+compile_commands.json
+
+# Ignore files generated for documentation
+/src/gen
+
+# ignore cache
+.cache
+
+# Binaries
+*.o
+*.os
+*.so
+*.obj
+*.bc
+*.pyc
+*.dblite
+*.pdb
+*.lib
+*.config
+*.creator
+*.creator.user
+*.files
+*.includes
+*.idb
+*.exp
+*.exe
+
+# Other stuff
+*.log
+
+# VSCode
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.DS_Store
+
+# Jetbrains
+.idea/
+
+# Cmake
+cmake-build*
+CMakeUserPresets.json
